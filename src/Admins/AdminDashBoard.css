@@ -1,0 +1,36 @@
+.Admin-sidebar{
+    width:20%;
+    border: 1px solid silver;
+    background-color:#87C4FF;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+   
+   
+}
+.Admin-mainbar{
+    /* height:90vh; */
+    width:80%;
+    border: 1px solid silver;
+    background-color:#F1EAFF;
+
+}
+.Admin-main{
+    width: 100%;
+    display: flex;
+}
+.side_bar_list {
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left:40px;
+    color: black;
+    font-size: larger;
+    list-style: none;
+    text-decoration: none;
+    transition:0.2s ease-in-out;
+    color: red;
+
+}
+.side_bar_list:hover{
+    font-size: 20px;
+    color:red;
+}

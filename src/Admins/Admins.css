@@ -1,0 +1,177 @@
+.card-box-main{
+height:100vh;
+width:1220px;
+border:2px solid red;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+/* background-color:#b3b0c0; */
+display: flex;
+align-items: center;
+
+}
+/* .card-box-sub{ */
+/* } */
+
+.card-box-sub{
+    text-align: center;
+    height:300px;
+    width:450px;
+    border:2px solid rgb(163, 68, 0);
+    list-style: none;
+    padding-top: 25px;
+    border-radius:10px;
+    /* background-color:#f8f7f4; */
+    
+}
+
+
+
+.View-mgr-btn{
+    height:30px;
+    width:150px;
+    border: 2px solid rgb(255, 0, 0);
+    font-size: medium;
+    position: relative;
+    top:30px;
+    background-color:lightblue;
+    border-radius:50px;
+    
+}
+
+
+
+.card-box-each-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+View Academy each manager
+ */
+
+
+ .card-box-each-main{
+    height:90vh;
+    width:100%;
+    border: 2px solid blue;
+
+ }
+
+ .card-box-each-sub{
+    height:450px;
+    width:560px;
+    padding:80px;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    /* font-size:25px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:darkseagreen;
+ }
+ .card-box-each-sub>ul>h3>span{
+    color: rgb(121, 0, 0);
+ }
+.view-btn, .update-btn, .delete-btn {
+color:black;
+text-decoration: none;
+width:100px;
+height:30px;
+margin-top:90px;
+margin-left:10px;
+border: 2px solid black;
+}
+.delete-btn {
+    background-color:rgb(250, 0, 0);
+   color: white;
+}
+.update-btn{
+    background-color: rgb(245, 216, 70);
+}
+.view-btn{
+    background-color: green;
+
+}
+.Lview-btn, .Lupdate-btn{
+    text-decoration: none;
+
+}
+.Lview-btn{
+    color: white;
+}
+.Lupdate-btn{
+    color: black;
+}
+
+
+
+
+/* View Academy */
+.viewAcademyHed{
+    height:40px;
+    background-color: rgb(26, 28, 24);
+    color:white;
+    border-radius: 50px;
+    position: relative;
+    bottom:10px;
+    padding-top:6px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#countNum{
+    color:red;
+}
+.ViewAcademy_main{
+    /* height:82vh; */
+    width:100%;
+    background-color:#164863;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.ViewAcademy_sub{
+    height:300px;
+    width:500px;
+    margin-top: 50px;
+    background-color:#9BBEC8;
+    padding:50px;
+    border-radius:20px;
+    
+}
+
+.view_btn{
+     height:30px;
+     width:90px;
+     margin-top:40px;
+     margin-left:5px;
+     background-color:#67729D;
+     color: white;
+     border-radius: 10px;
+     text-decoration: none;
+     border: 2px solid transparent;
+     
+}
+.view_btnL{
+    color: white;
+    text-decoration: none;
+}
+.ViewAcademy_sub>h3>span{
+    color:rgb(225, 72, 72);
+}
+
